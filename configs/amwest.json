@@ -1,0 +1,40 @@
+{
+  "company_id": "amwest",
+  "display_name": "AmWest Funding Corporation",
+
+  "fred_series": [
+    {"id": "DGS10",         "name": "Rate_10Y_UST",  "unit": "%"},
+    {"id": "DGS2",          "name": "Rate_2Y_UST",   "unit": "%"},
+    {"id": "SOFR",          "name": "Rate_SOFR_ON",  "unit": "%"},
+    {"id": "SOFR30DAYAVG",  "name": "Rate_SOFR_30D", "unit": "%"},
+    {"id": "DFF",           "name": "Rate_FedFunds", "unit": "%"},
+    {"id": "MORTGAGE30US",  "name": "Mort_30Y",      "unit": "%"},
+    {"id": "MORTGAGE15US",  "name": "Mort_15Y",      "unit": "%"},
+    {"id": "HOUST",         "name": "HouseStarts",   "unit": "thsds"},
+    {"id": "EXHOSLUSM495S", "name": "ExHomeSales",   "unit": "mil"},
+    {"id": "HSN1F",         "name": "NewHomeSales",  "unit": "thsds"},
+    {"id": "SPCS20RSA",     "name": "CaseShiller",   "unit": "index"},
+    {"id": "CPIAUCSL",      "name": "CPI_Headline",  "unit": "index"},
+    {"id": "UNRATE",        "name": "Unemp_Rate",    "unit": "%"}
+  ],
+
+  "yahoo_peers": [
+    {"ticker": "RKT",  "price_name": "RKT_Price"},
+    {"ticker": "UWMC", "price_name": "UWMC_Price"},
+    {"ticker": "PFSI", "price_name": "PFSI_Price"},
+    {"ticker": "LDI",  "price_name": "LDI_Price"},
+    {"ticker": "VEL",  "price_name": "VEL_Price"}
+  ],
+
+  "yahoo_etfs": [
+    {"ticker": "MBB",  "price_name": "MBB_Price"},
+    {"ticker": "VMBS", "price_name": "VMBS_Price"}
+  ],
+
+  "edgar_peers": [
+    {"ticker": "RKT",  "cik": "0001805526", "stkeq_name": "RKT_StkEq",  "shares_name": "RKT_Shares"},
+    {"ticker": "UWMC", "cik": "0001783398", "stkeq_name": "UWMC_StkEq", "shares_name": "UWMC_Shares"},
+    {"ticker": "PFSI", "cik": "0001745916", "stkeq_name": "PFSI_StkEq", "shares_name": "PFSI_Shares"},
+    {"ticker": "LDI",  "cik": "0001831631", "stkeq_name": "LDI_StkEq",  "shares_name": "LDI_Shares"}
+  ]
+}
