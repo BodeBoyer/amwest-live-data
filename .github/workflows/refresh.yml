@@ -25,8 +25,14 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run refresh
+      - name: Install openpyxl (for workbook rebuild)
+        run: pip install openpyxl
+
+      - name: Run refresh (writes data/{cid}/livedata.json + .csv)
         run: python refresh.py
+
+      - name: Rebuild published workbooks from templates
+        run: python build_published_workbook.py
 
       - name: Commit refreshed data
         run: |
