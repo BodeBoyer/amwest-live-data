@@ -1,7 +1,7 @@
 {
   "company_id": "amwest",
   "display_name": "AmWest Funding Corporation",
-  "refreshed_at": "2026-05-21T14:19:50Z",
+  "refreshed_at": "2026-05-21T18:10:16Z",
   "observation_count": 27,
   "observations": [
     {
@@ -51,18 +51,18 @@
     },
     {
       "name": "Mort_30Y",
-      "value": 6.36,
+      "value": 6.51,
       "unit": "%",
-      "as_of": "2026-05-14",
+      "as_of": "2026-05-21",
       "source": "FRED",
       "series_id": "MORTGAGE30US",
       "url": "https://fred.stlouisfed.org/series/MORTGAGE30US"
     },
     {
       "name": "Mort_15Y",
-      "value": 5.71,
+      "value": 5.85,
       "unit": "%",
-      "as_of": "2026-05-14",
+      "as_of": "2026-05-21",
       "source": "FRED",
       "series_id": "MORTGAGE15US",
       "url": "https://fred.stlouisfed.org/series/MORTGAGE15US"
@@ -123,7 +123,7 @@
     },
     {
       "name": "RKT_Price",
-      "value": 13.380000114440918,
+      "value": 13.829999923706055,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -132,7 +132,7 @@
     },
     {
       "name": "UWMC_Price",
-      "value": 2.9260001182556152,
+      "value": 3.075000047683716,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -141,7 +141,7 @@
     },
     {
       "name": "PFSI_Price",
-      "value": 84.87999725341797,
+      "value": 86.93000030517578,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -150,7 +150,7 @@
     },
     {
       "name": "LDI_Price",
-      "value": 1.2350000143051147,
+      "value": 1.2450000047683716,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -159,7 +159,7 @@
     },
     {
       "name": "VEL_Price",
-      "value": 17.25,
+      "value": 17.350000381469727,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -168,7 +168,7 @@
     },
     {
       "name": "MBB_Price",
-      "value": 93.4800033569336,
+      "value": 93.90499877929688,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -177,7 +177,7 @@
     },
     {
       "name": "VMBS_Price",
-      "value": 46.275001525878906,
+      "value": 46.48500061035156,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",

@@ -1,8 +1,8 @@
 {
   "company_id": "coveragex",
   "display_name": "Coverage X",
-  "refreshed_at": "2026-05-21T17:59:34Z",
-  "observation_count": 15,
+  "refreshed_at": "2026-05-21T18:10:16Z",
+  "observation_count": 16,
   "observations": [
     {
       "name": "Rate_10Y_UST",
@@ -95,8 +95,17 @@
       "url": "https://fred.stlouisfed.org/series/AUINSA"
     },
     {
+      "name": "AutoLoanRate_48mo",
+      "value": 7.36,
+      "unit": "%",
+      "as_of": "2026-02-01",
+      "source": "FRED",
+      "series_id": "TERMCBAUTO48NS",
+      "url": "https://fred.stlouisfed.org/series/TERMCBAUTO48NS"
+    },
+    {
       "name": "AIZ_Price",
-      "value": 254.72999572753906,
+      "value": 254.85000610351562,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -105,7 +114,7 @@
     },
     {
       "name": "ALLY_Price",
-      "value": 42.994998931884766,
+      "value": 42.86000061035156,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -114,7 +123,7 @@
     },
     {
       "name": "KMX_Price",
-      "value": 38.58000183105469,
+      "value": 38.525001525878906,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -123,7 +132,7 @@
     },
     {
       "name": "CACC_Price",
-      "value": 549.1500244140625,
+      "value": 547.3900146484375,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -132,7 +141,7 @@
     },
     {
       "name": "COF_Price",
-      "value": 186.03500366210938,
+      "value": 185.8800048828125,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
