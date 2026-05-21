@@ -80,7 +80,10 @@ def index_observations(observations: list[dict]) -> dict[str, dict]:
 
 def write_company_file(cid: str, display_name: str, observations: list[dict],
                        refreshed_at: str) -> int:
-    """Write the per-company livedata.json plus dated history snapshot."""
+    """Write the per-company livedata.json + livedata.csv + dated history snapshot.
+
+    The CSV is published so any Excel workbook can pull it via a basic Web Query
+    (auto-refresh on open) — no Power Query needed, works on Win + Mac Excel."""
     livedata = {
         "company_id": cid,
         "display_name": display_name,
@@ -93,10 +96,25 @@ def write_company_file(cid: str, display_name: str, observations: list[dict],
     cdir.mkdir(parents=True, exist_ok=True)
     (cdir / "livedata.json").write_text(json.dumps(livedata, indent=2))
 
+    # CSV variant for Excel Web Query consumption (auto-refresh on workbook open)
+    import csv as _csv
+    import io as _io
+    csv_buf = _io.StringIO()
+    csv_buf.write(f"# {display_name} live data\n")
+    csv_buf.write(f"# Refreshed: {refreshed_at}\n")
+    csv_buf.write(f"# Observations: {len(observations)}\n")
+    fieldnames = ["name", "value", "unit", "source", "series_id", "as_of", "url"]
+    writer = _csv.DictWriter(csv_buf, fieldnames=fieldnames, extrasaction="ignore")
+    writer.writeheader()
+    for obs in observations:
+        writer.writerow({k: obs.get(k, "") for k in fieldnames})
+    (cdir / "livedata.csv").write_text(csv_buf.getvalue())
+
     hdir = cdir / "history"
     hdir.mkdir(exist_ok=True)
     date_part = refreshed_at.split("T")[0]
     (hdir / f"{date_part}.json").write_text(json.dumps(livedata, indent=2))
+    (hdir / f"{date_part}.csv").write_text(csv_buf.getvalue())
 
     return len(observations)
 

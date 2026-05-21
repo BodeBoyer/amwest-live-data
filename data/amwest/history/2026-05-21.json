@@ -1,7 +1,7 @@
 {
   "company_id": "amwest",
   "display_name": "AmWest Funding Corporation",
-  "refreshed_at": "2026-05-21T18:10:16Z",
+  "refreshed_at": "2026-05-21T19:27:44Z",
   "observation_count": 27,
   "observations": [
     {
@@ -123,7 +123,7 @@
     },
     {
       "name": "RKT_Price",
-      "value": 13.829999923706055,
+      "value": 13.734999656677246,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -132,7 +132,7 @@
     },
     {
       "name": "UWMC_Price",
-      "value": 3.075000047683716,
+      "value": 3.065000057220459,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -141,7 +141,7 @@
     },
     {
       "name": "PFSI_Price",
-      "value": 86.93000030517578,
+      "value": 87.01499938964844,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -150,7 +150,7 @@
     },
     {
       "name": "LDI_Price",
-      "value": 1.2450000047683716,
+      "value": 1.2350000143051147,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -159,7 +159,7 @@
     },
     {
       "name": "VEL_Price",
-      "value": 17.350000381469727,
+      "value": 17.520000457763672,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -168,7 +168,7 @@
     },
     {
       "name": "MBB_Price",
-      "value": 93.90499877929688,
+      "value": 93.82499694824219,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",
@@ -177,7 +177,7 @@
     },
     {
       "name": "VMBS_Price",
-      "value": 46.48500061035156,
+      "value": 46.45989990234375,
       "unit": "USD",
       "as_of": "2026-05-21",
       "source": "Yahoo Finance",

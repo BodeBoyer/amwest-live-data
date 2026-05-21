@@ -1,0 +1,31 @@
+# AmWest Funding Corporation live data
+# Refreshed: 2026-05-21T19:27:44Z
+# Observations: 27
+name,value,unit,source,series_id,as_of,url
+Rate_10Y_UST,4.67,%,FRED,DGS10,2026-05-19,https://fred.stlouisfed.org/series/DGS10
+Rate_2Y_UST,4.13,%,FRED,DGS2,2026-05-19,https://fred.stlouisfed.org/series/DGS2
+Rate_SOFR_ON,3.5,%,FRED,SOFR,2026-05-20,https://fred.stlouisfed.org/series/SOFR
+Rate_SOFR_30D,3.6121,%,FRED,SOFR30DAYAVG,2026-05-21,https://fred.stlouisfed.org/series/SOFR30DAYAVG
+Rate_FedFunds,3.62,%,FRED,DFF,2026-05-19,https://fred.stlouisfed.org/series/DFF
+Mort_30Y,6.51,%,FRED,MORTGAGE30US,2026-05-21,https://fred.stlouisfed.org/series/MORTGAGE30US
+Mort_15Y,5.85,%,FRED,MORTGAGE15US,2026-05-21,https://fred.stlouisfed.org/series/MORTGAGE15US
+HouseStarts,1465.0,thsds,FRED,HOUST,2026-04-01,https://fred.stlouisfed.org/series/HOUST
+ExHomeSales,4020000.0,mil,FRED,EXHOSLUSM495S,2026-04-01,https://fred.stlouisfed.org/series/EXHOSLUSM495S
+NewHomeSales,682.0,thsds,FRED,HSN1F,2026-03-01,https://fred.stlouisfed.org/series/HSN1F
+CaseShiller,343.000192787506,index,FRED,SPCS20RSA,2026-02-01,https://fred.stlouisfed.org/series/SPCS20RSA
+CPI_Headline,332.407,index,FRED,CPIAUCSL,2026-04-01,https://fred.stlouisfed.org/series/CPIAUCSL
+Unemp_Rate,4.3,%,FRED,UNRATE,2026-04-01,https://fred.stlouisfed.org/series/UNRATE
+RKT_Price,13.734999656677246,USD,Yahoo Finance,RKT,2026-05-21,https://finance.yahoo.com/quote/RKT
+UWMC_Price,3.065000057220459,USD,Yahoo Finance,UWMC,2026-05-21,https://finance.yahoo.com/quote/UWMC
+PFSI_Price,87.01499938964844,USD,Yahoo Finance,PFSI,2026-05-21,https://finance.yahoo.com/quote/PFSI
+LDI_Price,1.2350000143051147,USD,Yahoo Finance,LDI,2026-05-21,https://finance.yahoo.com/quote/LDI
+VEL_Price,17.520000457763672,USD,Yahoo Finance,VEL,2026-05-21,https://finance.yahoo.com/quote/VEL
+MBB_Price,93.82499694824219,USD,Yahoo Finance,MBB,2026-05-21,https://finance.yahoo.com/quote/MBB
+VMBS_Price,46.45989990234375,USD,Yahoo Finance,VMBS,2026-05-21,https://finance.yahoo.com/quote/VMBS
+RKT_StkEq,10.194,USDm,SEC EDGAR,RKT_SE,2026-03-31,https://data.sec.gov/submissions/CIK0001805526.json
+RKT_Shares,30.118205,m,SEC EDGAR,RKT_SHRS,2026-05-19,https://data.sec.gov/submissions/CIK0001805526.json
+UWMC_StkEq,1600.901,USDm,SEC EDGAR,UWMC_SE,2026-03-31,https://data.sec.gov/submissions/CIK0001783398.json
+UWMC_Shares,103.104205,m,SEC EDGAR,UWMC_SHRS,2021-03-18,https://data.sec.gov/submissions/CIK0001783398.json
+PFSI_StkEq,4325.759,USDm,SEC EDGAR,PFSI_SE,2026-03-31,https://data.sec.gov/submissions/CIK0001745916.json
+PFSI_Shares,51.924875,m,SEC EDGAR,PFSI_SHRS,2026-05-04,https://data.sec.gov/submissions/CIK0001745916.json
+LDI_StkEq,337.296,USDm,SEC EDGAR,LDI_SE,2026-03-31,https://data.sec.gov/submissions/CIK0001831631.json
