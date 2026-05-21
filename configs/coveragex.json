@@ -1,0 +1,29 @@
+{
+  "company_id": "coveragex",
+  "display_name": "Coverage X",
+
+  "fred_series": [
+    {"id": "DGS10",             "name": "Rate_10Y_UST",        "unit": "%"},
+    {"id": "DFEDTARU",          "name": "FedFunds_Upper",      "unit": "%"},
+    {"id": "T10Y2Y",            "name": "Spread_10Y2Y",        "unit": "%"},
+    {"id": "TOTALSA",           "name": "AutoSales_SAAR",      "unit": "millions"},
+    {"id": "CUUR0000SETA02",    "name": "CPI_UsedCarsTrucks",  "unit": "index"},
+    {"id": "UMCSENT",           "name": "UMich_Sentiment",     "unit": "index"},
+    {"id": "UNRATE",            "name": "Unemp_Rate",          "unit": "%"},
+    {"id": "MORTGAGE30US",      "name": "Mort_30Y",            "unit": "%"},
+    {"id": "TRFVOLUSM227NFWA",  "name": "Vehicle_Miles",       "unit": "index"},
+    {"id": "AUINSA",            "name": "LightTruck_Inv",      "unit": "thsds"}
+  ],
+
+  "yahoo_peers": [
+    {"ticker": "AIZ",  "price_name": "AIZ_Price"},
+    {"ticker": "ALLY", "price_name": "ALLY_Price"},
+    {"ticker": "KMX",  "price_name": "KMX_Price"},
+    {"ticker": "CACC", "price_name": "CACC_Price"},
+    {"ticker": "COF",  "price_name": "COF_Price"}
+  ],
+
+  "yahoo_etfs": [],
+
+  "edgar_peers": []
+}

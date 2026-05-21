@@ -1,0 +1,143 @@
+{
+  "company_id": "coveragex",
+  "display_name": "Coverage X",
+  "refreshed_at": "2026-05-21T17:59:34Z",
+  "observation_count": 15,
+  "observations": [
+    {
+      "name": "Rate_10Y_UST",
+      "value": 4.67,
+      "unit": "%",
+      "as_of": "2026-05-19",
+      "source": "FRED",
+      "series_id": "DGS10",
+      "url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    {
+      "name": "FedFunds_Upper",
+      "value": 3.75,
+      "unit": "%",
+      "as_of": "2026-05-21",
+      "source": "FRED",
+      "series_id": "DFEDTARU",
+      "url": "https://fred.stlouisfed.org/series/DFEDTARU"
+    },
+    {
+      "name": "Spread_10Y2Y",
+      "value": 0.53,
+      "unit": "%",
+      "as_of": "2026-05-20",
+      "source": "FRED",
+      "series_id": "T10Y2Y",
+      "url": "https://fred.stlouisfed.org/series/T10Y2Y"
+    },
+    {
+      "name": "AutoSales_SAAR",
+      "value": 16.696,
+      "unit": "millions",
+      "as_of": "2026-03-01",
+      "source": "FRED",
+      "series_id": "TOTALSA",
+      "url": "https://fred.stlouisfed.org/series/TOTALSA"
+    },
+    {
+      "name": "CPI_UsedCarsTrucks",
+      "value": 177.936,
+      "unit": "index",
+      "as_of": "2026-04-01",
+      "source": "FRED",
+      "series_id": "CUUR0000SETA02",
+      "url": "https://fred.stlouisfed.org/series/CUUR0000SETA02"
+    },
+    {
+      "name": "UMich_Sentiment",
+      "value": 53.3,
+      "unit": "index",
+      "as_of": "2026-03-01",
+      "source": "FRED",
+      "series_id": "UMCSENT",
+      "url": "https://fred.stlouisfed.org/series/UMCSENT"
+    },
+    {
+      "name": "Unemp_Rate",
+      "value": 4.3,
+      "unit": "%",
+      "as_of": "2026-04-01",
+      "source": "FRED",
+      "series_id": "UNRATE",
+      "url": "https://fred.stlouisfed.org/series/UNRATE"
+    },
+    {
+      "name": "Mort_30Y",
+      "value": 6.51,
+      "unit": "%",
+      "as_of": "2026-05-21",
+      "source": "FRED",
+      "series_id": "MORTGAGE30US",
+      "url": "https://fred.stlouisfed.org/series/MORTGAGE30US"
+    },
+    {
+      "name": "Vehicle_Miles",
+      "value": 283207.0,
+      "unit": "index",
+      "as_of": "2026-03-01",
+      "source": "FRED",
+      "series_id": "TRFVOLUSM227NFWA",
+      "url": "https://fred.stlouisfed.org/series/TRFVOLUSM227NFWA"
+    },
+    {
+      "name": "LightTruck_Inv",
+      "value": 198.116,
+      "unit": "thsds",
+      "as_of": "2026-03-01",
+      "source": "FRED",
+      "series_id": "AUINSA",
+      "url": "https://fred.stlouisfed.org/series/AUINSA"
+    },
+    {
+      "name": "AIZ_Price",
+      "value": 254.72999572753906,
+      "unit": "USD",
+      "as_of": "2026-05-21",
+      "source": "Yahoo Finance",
+      "series_id": "AIZ",
+      "url": "https://finance.yahoo.com/quote/AIZ"
+    },
+    {
+      "name": "ALLY_Price",
+      "value": 42.994998931884766,
+      "unit": "USD",
+      "as_of": "2026-05-21",
+      "source": "Yahoo Finance",
+      "series_id": "ALLY",
+      "url": "https://finance.yahoo.com/quote/ALLY"
+    },
+    {
+      "name": "KMX_Price",
+      "value": 38.58000183105469,
+      "unit": "USD",
+      "as_of": "2026-05-21",
+      "source": "Yahoo Finance",
+      "series_id": "KMX",
+      "url": "https://finance.yahoo.com/quote/KMX"
+    },
+    {
+      "name": "CACC_Price",
+      "value": 549.1500244140625,
+      "unit": "USD",
+      "as_of": "2026-05-21",
+      "source": "Yahoo Finance",
+      "series_id": "CACC",
+      "url": "https://finance.yahoo.com/quote/CACC"
+    },
+    {
+      "name": "COF_Price",
+      "value": 186.03500366210938,
+      "unit": "USD",
+      "as_of": "2026-05-21",
+      "source": "Yahoo Finance",
+      "series_id": "COF",
+      "url": "https://finance.yahoo.com/quote/COF"
+    }
+  ]
+}
